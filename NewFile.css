@@ -1,0 +1,167 @@
+@cherset "utf-8";
+body{
+	font-family: 'Raleway', sans-serif;
+	
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#nav1{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #615d06;
+}
+#nav1 h1{
+	float: left;
+	font-size: 2.5em;
+	margin-left: 15px;
+	padding: 0px;
+}
+#nav1 h1 a{
+	text-decoration: none;
+	color: white;
+}
+#nav1 ul{
+	float: right;
+	margin-right: 15px;
+}
+#nav1 ul li{
+	display:inline-block;
+	list-style-type: none;
+	font-size: 1em;
+}
+#nav1 ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+}
+#nav1 ul li:hover{
+	background: green;
+}
+#active{
+	background: green;
+}
+#main-content{
+	width: 100%;
+	height: 600px;
+	background-image: url(photo.jpg);
+	background-size: cover;
+	color: #565353c7;
+	line-height: 40px;
+	text-align: center;
+	
+}
+#main-content p{
+		margin: 20px;
+}
+#services{
+	background: #615d06;
+	width: 180px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 50px;
+	color: white;
+	font-weight: 100;
+	border-radius: 10px;
+}
+#services:hover{
+	box-shadow: 1px 5px 2px 2px  rgba(84, 69, 69, 0.53);
+	transition: all ease-in-out 0.45; 
+}
+#services a{
+	color:white;
+	text-decoration: none;
+	padding: 5px;
+}
+#third{
+	width:100%;
+	height:400px;
+	background:#808080
+}
+#third1{
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	display: inline;
+	float: left;
+	border-radius: 5px;
+	text-align: center;
+}
+#third1 img{
+	width: 400px;
+	height: 200px;
+}
+#footer{
+	width: 100%;
+	height:100px;
+	line-height: 100px;
+	background: black;
+	color: white;
+	clear: both;
+}
+#footer h2{
+	float: right;
+	font-size: 20px;
+}
+#nav2{
+	float: left;
+	margin-right: 20px;
+	font-weight: 200;
+}
+#nav2 ul li{    
+	display:inline-block;
+	list-style-type: none;
+	font-size: 30px;
+}
+#nav2 ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 30px
+}
+
+#icon:hover{
+	color: #2d66a5;
+	transition: all ease-in-out 0.45s;
+}
+#icon2:hover{
+	color: #008cbe;
+	transition: all ease-in-out 0.45s;
+}
+#icon3:hover{
+	color: #ff0000;
+	transition: all ease-in-out 0.45s;
+}
+#icon4:hover{
+	color: #262626;
+	transition: all ease-in-out 0.45s;
+}
+#child{
+	width: 80%;
+	height: 300px;
+	background-image: url(images5.jpg);
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#child h3{
+	text-align: left;
+	color: white;
+	line-height: 40px;
+	margin-left: 10px;
+	
+}
+#child p{
+	margin-left: 10px;
+	}
+
+
+
+
+
+
+
