@@ -81,15 +81,17 @@ body{
 	background:#808080
 }
 #third1{
-    width: 100px;
-	padding: 150px;
+    width: fit-content;
+	padding: 0px;
 	display: inline-block;
 	border-radius: 5px;
 	text-align: center;
+
 }
 #third1 img{
-	
-    display: inline;
+	width: inherit;
+	padding-left: 15px;
+  
 }
 #footer{
 	width: 100%;
