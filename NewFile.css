@@ -41,6 +41,7 @@ body{
 }
 #active{
 	background: green;
+	border-radius: 10px;
 }
 #main-content{
 	width: 100%;
@@ -108,7 +109,7 @@ body{
 #nav2{
 	float: left;
 	margin-right: 20px;
-	font-weight: 200;
+	font-weight: 300;
 }
 #nav2 ul li{    
 	display:inline-block;
