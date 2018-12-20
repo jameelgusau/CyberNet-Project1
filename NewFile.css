@@ -38,6 +38,7 @@ body{
 }
 #nav1 ul li:hover{
 	background: green;
+	border-radius: 10px;
 }
 #active{
 	background: green;
@@ -54,7 +55,7 @@ body{
 	
 }
 #main-content p{
-		margin: 20px;
+	margin: 20px;
 }
 #services{
 	background: #615d06;
