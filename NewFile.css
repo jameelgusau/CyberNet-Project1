@@ -38,11 +38,9 @@ body{
 }
 #nav1 ul li:hover{
 	background: green;
-	border-radius: 10px;
 }
 #active{
 	background: green;
-	border-radius: 10px;
 }
 #main-content{
 	width: 100%;
