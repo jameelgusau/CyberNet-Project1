@@ -17,3 +17,7 @@ function a(){
 var myVar = 1;
     console.log(myVar);
 a();
+function sayHello(){
+    alert("Hello");
+}
+sayHello();
